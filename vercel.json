@@ -19,8 +19,8 @@
           "value": "www.fittlline.vercel.app"
         }
       ],
-      "destination": "https://fittlline.vercel.app",
+      "destination": "https://fittllineweb-2-test.vercel.app/",
       "permanent": true
     }
-  ]
+  ] 
 }
