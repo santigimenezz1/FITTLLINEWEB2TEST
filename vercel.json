@@ -1,0 +1,26 @@
+{
+  "buildCommand": "expo export -p web",
+  "outputDirectory": "dist",
+  "devCommand": "expo",
+  "cleanUrls": true,
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.fittlline.vercel.app"
+        }
+      ],
+      "destination": "https://fittlline.vercel.app",
+      "permanent": true
+    }
+  ]
+}
